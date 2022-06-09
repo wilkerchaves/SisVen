@@ -41,3 +41,10 @@ Nas proximas fases pretende-se desenvolver funcionalidades para geração de rel
 
 
 
+# Modelo conceitual
+
+<img src= "https://github.com/wilkerchaves/SisVen/blob/e1c4259fa8eba0c8a0b87f0921af5eb9b6880551/src/main/resources/img/Diagrama%20de%20classes.png"  width="350" height="400" />
+
+
+
+
