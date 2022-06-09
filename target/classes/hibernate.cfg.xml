@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.password">12345678</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/stock-control</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL55Dialect</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.format_sql">false</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<mapping class="model.entities.Product" />
+		<mapping class="model.entities.Payment" />
+		<mapping class="model.entities.OrderItem" />
+		<mapping class="model.entities.Order" />
+		<mapping class="model.entities.Category" />
+		<mapping class="model.entities.Production" />
+	</session-factory>
+</hibernate-configuration>

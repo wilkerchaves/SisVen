@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="1040.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
+   <content>
+      <VBox fx:id="vBox" prefHeight="411.0" prefWidth="714.0">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Estoque">
+                  <items>
+                    <MenuItem fx:id="menuItemProduct" mnemonicParsing="false" onAction="#onMenuItemProductAction" text="Produtos" />
+                        <MenuItem fx:id="menuItemCategory" mnemonicParsing="false" onAction="#onMenuItemCategoryAction" text="Categorias" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Caixa">
+                  <items>
+                        <MenuItem fx:id="menuItemOpenCashRegister" mnemonicParsing="false" onAction="#onMenuItemOpenCashRegisterAction" text="Abertura Caixa" />
+                    <MenuItem fx:id="menuItemCloseCashRegister" mnemonicParsing="false" onAction="#onMenuItemCloseCashRegisterAction" text="Fechamento Caixa" />
+                        <MenuItem fx:id="menuItemFindCashRegister" mnemonicParsing="false" onAction="#onMenuItemFindCashRegisterAction" text="Consultar" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Vendas">
+                  <items>
+                    <MenuItem fx:id="menuItemFindOrders" mnemonicParsing="false" onAction="#onMenuItemFindOrdersAction" text="Consultar" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <FlowPane fx:id="flowPane" prefHeight="200.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="5.0" right="5.0" top="10.0" />
+               </padding></FlowPane>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>
