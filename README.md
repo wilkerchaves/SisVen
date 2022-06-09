@@ -30,20 +30,37 @@ O projeto está sendo desenvolvido em fases, das quais a primeira fase já está
 Nas proximas fases pretende-se desenvolver funcionalidades para geração de relatórios financeiros.
 
 
-# Tecnologias utilizadas
-## Back end
+## Tecnologias utilizadas
+### Back end
 - Java
 - Hibernate
 - Maven
 - Banco de dados: MySQL
-## Interface gráfica
+### Interface gráfica
 - JavaFX
 
 
 
-# Modelo conceitual
+## Modelo conceitual
 
 <img src= "https://github.com/wilkerchaves/SisVen/blob/e1c4259fa8eba0c8a0b87f0921af5eb9b6880551/src/main/resources/img/Diagrama%20de%20classes.png"  width="350" height="400" />
+
+## Layout
+
+<img src= "https://github.com/wilkerchaves/SisVen/blob/7cc515452e5223defa8b44be88008a07e810f088/src/main/resources/img/home.PNG"  width="700" height="400" />
+
+
+<img src= "https://github.com/wilkerchaves/SisVen/blob/7cc515452e5223defa8b44be88008a07e810f088/src/main/resources/img/list.PNG"  width="700" height="400" />
+
+
+<img src= "https://github.com/wilkerchaves/SisVen/blob/7cc515452e5223defa8b44be88008a07e810f088/src/main/resources/img/products.PNG" width="700" height="400" />
+
+
+<img src= "https://github.com/wilkerchaves/SisVen/blob/7cc515452e5223defa8b44be88008a07e810f088/src/main/resources/img/categories.PNG"  width="700" height="400" />
+
+
+<img src= "https://github.com/wilkerchaves/SisVen/blob/7cc515452e5223defa8b44be88008a07e810f088/src/main/resources/img/finishOrder.PNG"  width="700" height="400" />
+
 
 
 
